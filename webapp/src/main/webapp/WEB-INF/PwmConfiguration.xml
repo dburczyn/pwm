@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PwmConfiguration pwmVersion="1.8.0-SNAPSHOT" pwmBuild="0" xmlVersion="4" createTime="2019-02-27T11:18:58Z" modifyTime="2019-03-07T09:35:18Z">
+
+  <settings modifyTime="2019-03-07T09:35:18Z">
+    <setting key="template.ldap" syntax="SELECT" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>LDAP Vendor Default Settings</label>
+      <value><![CDATA[ORACLE_DS]]></value>
+    </setting>
+    <setting key="template.storage" syntax="SELECT" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Storage Default Settings</label>
+      <value><![CDATA[LOCALDB]]></value>
+    </setting>
+    <setting key="ldap.profile.list" syntax="PROFILE" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>LDAP Directory Profiles</label>
+      <value><![CDATA[default]]></value>
+    </setting>
+    <setting key="ldap.serverUrls" syntax="STRING_ARRAY" profile="default" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>LDAP URLs</label>
+      <value><![CDATA[ldap://localhost:10389]]></value>
+    </setting>
+    <setting key="ldap.proxy.username" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>LDAP Proxy User</label>
+      <value><![CDATA[cn=admin,ou=people,dc=example,dc=com]]></value>
+    </setting>
+    <setting key="ldap.proxy.password" syntax="PASSWORD" profile="default" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>LDAP Proxy Password</label>
+      <value>7WS1muN5uR5O8KNCK8F4qg==</value>
+    </setting>
+    <setting key="ldap.rootContexts" syntax="STRING_ARRAY" profile="default" syntaxVersion="0" modifyTime="2019-02-28T08:49:30Z">
+      <label>LDAP Contextless Login Roots</label>
+      <value><![CDATA[ou=people,dc=example,dc=com]]></value>
+    </setting>
+    <setting key="ldap.testuser.username" syntax="STRING" profile="default" modifyTime="2019-03-04T15:04:11Z" syntaxVersion="0">
+      <label>LDAP Test User</label>
+      <value />
+    </setting>
+    <setting key="pwmAdmin.queryMatch" syntax="USER_PERMISSION" syntaxVersion="2" modifyTime="2019-02-27T11:18:58Z">
+      <label>Administrator Permission</label>
+      <value>{"ldapBase":"","type":"ldapGroup"}</value>
+    </setting>
+    <setting key="db.classname" syntax="STRING" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Database Class</label>
+      <value />
+    </setting>
+    <setting key="db.url" syntax="STRING" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Database Connection String</label>
+      <value />
+    </setting>
+    <setting key="db.username" syntax="STRING" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Database User Name</label>
+      <value />
+    </setting>
+    <setting key="db.password" syntax="PASSWORD" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Database Password</label>
+      <value />
+    </setting>
+    <setting key="pwm.publishStats.enable" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Enable Anonymous Statistics Publishing</label>
+      <value>false</value>
+    </setting>
+    <setting key="pwm.publishStats.siteDescription" syntax="STRING" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Site Description</label>
+      <value />
+    </setting>
+    <setting key="pwm.selfURL" syntax="STRING" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Site URL</label>
+      <value><![CDATA[http://localhost:8080/pwm]]></value>
+    </setting>
+    <setting key="display.showDetailedErrors" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-03-04T15:21:40Z">
+      <label>Show Detailed Error Messages</label>
+      <value>false</value>
+    </setting>
+    <setting key="pwm.securityKey" syntax="PASSWORD" syntaxVersion="0" modifyTime="2019-02-27T11:18:58Z">
+      <label>Security Key</label>
+      <value>S/OU6WVI68amK+OivG96Vvi/lJsuUfRQurf+CLkxIwpL0n4brI1I+4jBAUN+Imh6ktaB7IoLcvwZa52RjENiyFd74TT9hiOu8eKnOkXX4LPy2crXcQ0aFsdHVn544tRe3VhdSms+NeGF/NV7OFTUH/oU2nVezb9NR9AoPCuHW58K24rM3uecD9LBXTxmG1m94MM4BTp3oRkDL2s8365U1LcRLKzqw8XNo7H5oqlvSo8YCBxOATavXby/ZTthJNiahu5J7y++kBMuCwy2Y0nwQV8JgXfAVN78qIfIr6LptMkne17sWOYGCHyxLVKYTPfDALWcxOkhikYsjlyrehrbI65HX07lakp1K19BegVyh6c3Jvf8YnZUFkQV4vajUQ1zfqnZgrrj85a4yLNR3f2ejHUb7vi4xxx0Zhquw1e1eCVw8A8nn7gUFpD04qqlPVRUnI7A4hURsjn7SOMAmOhZU3otYg+XthL0n6xLKJkOhYfa86UTZAeuOs+bYFEth3hzoRIDBBfQmWRec6qZPPP85bBSNVKj0i/5XoSutjbVgepbCCUs3pmS0vKZzIjwP4+lOdO2nax3swvKfu7+pqdrHkDaV6YoaLkuCAFBTQOLD2SQH5u1CVEtrvw0XMyJWZebqs4cQBBm3Nmlq1AXvF1sA2O/wIYsxAcwEYKu9oJqWWxZ+4sJVxkCaUsJ+/RUGgmFeC/5h9LmznbyJHbQTYu4lCrk5EAMfqJ7VvQlj+XYbvsmSincrJVRNB8I/4RI0RmRgP8ZswZX80cOEb+TLOEMnbylh23hmWQQLmrkxBFAGfrSdamk19zqD+8d6MdQReKMTw9wwvqAiUxUVeS5iy0NgNYngM9azw2TAL8fUlwMAr3/A/agu8y94m1pe45rPWUNSVWOqQfO4bPDa9kLz4EplJEXFnyais8JS7pmZhax0pPdso8YExASOYnVt+C8bXwnz1a1Vdb8wYokOlPropgCzx80QSJ3JwzwG3OeobnQH0jHx+GFrwVMmJTPXW8kZ8/UZpEik/jKGhX0eqJGKIqzC0ekgXrzSFlgFDpha6SzC7e1s6oKABRUTaiP4MuMGhyHU3A0wPNi0BzfLlJOMq38tfMmAP+f1wZ+YxANMOhH8CBqPOMryAqkIQq6QZXndxEM08/pg5n2Rlq3CfsNieSNvVvfL7LZfSCZ3qsHm/M1sn5Et2YqSTPnzCS9ZlOJq71vBpz7iG9X8hqPmpxCOCs7/ZBVYQvJyATkg/TcyRlC1cVukzR4QHKuHkNo8EeVPwitly8nCI96oImvnYLjT546UiwS5h1/LcFh2D7Oe6lHW+GGXz9C1dwXm+CW3lic3vL3WmlCM4xoZfR3KpCFA7twbApscD0BIeF4jNzevNbeWIY=</value>
+    </setting>
+    <setting key="newUser.enable" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-02-27T11:33:05Z">
+      <label>Enable New User Registration</label>
+      <value>true</value>
+    </setting>
+    <setting key="newUser.email.verification" syntax="BOOLEAN" profile="default" syntaxVersion="0" modifyTime="2019-03-04T12:22:42Z">
+      <label>Enable New User Email Verification</label>
+      <value>true</value>
+    </setting>
+    <setting key="newUser.createContext" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-02-27T11:36:27Z">
+      <label>Creation Context</label>
+      <value><![CDATA[ou=people,dc=example,dc=com]]></value>
+    </setting>
+    <setting key="newUser.passwordPolicy.user" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-02-27T11:39:57Z">
+      <label>Password Policy Template</label>
+      <value><![CDATA[x]]></value>
+    </setting>
+    <setting key="newUser.form" syntax="FORM" profile="default" syntaxVersion="0" modifyTime="2019-03-07T09:21:49Z">
+      <label>New User Form</label>
+      <value>{"name":"mail","minimumLength":1,"maximumLength":64,"type":"email","required":true,"confirmationRequired":false,"readonly":false,"unique":true,"multivalue":false,"labels":{"":"Email Address"},"regexErrors":{"":"Email Address has invalid characters"},"description":{"":""},"regex":"^[a-zA-Z0-9 .,'-@]*$","placeholder":"username@example.com","selectOptions":{},"maximumSize":0}</value>
+      <value>{"name":"givenName","minimumLength":1,"maximumLength":64,"type":"text","required":true,"confirmationRequired":false,"readonly":false,"unique":false,"multivalue":false,"labels":{"":"First Name"},"regexErrors":{"":""},"description":{"":""},"regex":"^[a-zA-Z0-9 .,'@]*$","selectOptions":{},"maximumSize":0}</value>
+      <value>{"name":"sn","minimumLength":1,"maximumLength":64,"type":"text","required":true,"confirmationRequired":false,"readonly":false,"unique":false,"multivalue":false,"labels":{"":"Last Name"},"regexErrors":{"":""},"description":{"":""},"regex":"^[a-zA-Z0-9 .,'@]*$","selectOptions":{},"maximumSize":0}</value>
+      <value>{"name":"cn","minimumLength":0,"maximumLength":255,"type":"text","source":"ldap","required":true,"confirmationRequired":false,"readonly":false,"unique":true,"multivalue":false,"labels":{"":"Login"},"regexErrors":{"":""},"description":{"":""},"regex":"","placeholder":"","javascript":"","selectOptions":{},"mimeTypes":["image/gif","image/png","image/jpeg","image/bmp","image/webp"],"maximumSize":65000}</value>
+      <value>{"name":"o","minimumLength":0,"maximumLength":255,"type":"text","source":"ldap","required":true,"confirmationRequired":false,"readonly":false,"unique":false,"multivalue":false,"labels":{"":"Organisation"},"regexErrors":{"":""},"description":{"":""},"regex":"","placeholder":"","javascript":"","selectOptions":{},"mimeTypes":["image/gif","image/png","image/jpeg","image/bmp","image/webp"],"maximumSize":65000}</value>
+    </setting>
+    <setting key="pwm.forwardURL" syntax="STRING" syntaxVersion="0" modifyTime="2019-02-27T14:57:01Z">
+      <label>Forward URL</label>
+      <value><![CDATA[http://localhost:8080/psm/]]></value>
+    </setting>
+    <setting key="pwm.logoutURL" syntax="STRING" syntaxVersion="0" modifyTime="2019-02-27T14:57:03Z">
+      <label>Logout URL</label>
+      <value><![CDATA[http://localhost:8080/psm/]]></value>
+    </setting>
+    <setting key="newUser.redirectUrl" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-02-28T08:05:28Z">
+      <label>After Registration Redirect URL</label>
+      <value><![CDATA[http://localhost:8080/psm]]></value>
+    </setting>
+    <setting key="ldap.usernameSearchFilter" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-03-04T15:27:39Z">
+      <label>User Name Search Filter</label>
+      <value><![CDATA[(&(objectClass=person)(|(cn=%USERNAME%)(uid=%USERNAME%)))]]></value>
+    </setting>
+    <setting key="ldap.namingAttribute" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-02-28T08:04:22Z">
+      <label>LDAP Naming Attribute</label>
+      <value><![CDATA[cn]]></value>
+    </setting>
+    <setting key="ldap.username.attr" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-02-28T08:34:03Z">
+      <label>Attribute to use for User Name</label>
+      <value><![CDATA[cn]]></value>
+    </setting>
+    <setting key="ldap.guidAttribute" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-03-07T09:11:01Z">
+      <label>LDAP GUID Attribute</label>
+      <value><![CDATA[cn]]></value>
+    </setting>
+    <setting key="newUser.username.definition" syntax="STRING_ARRAY" profile="default" syntaxVersion="0" modifyTime="2019-02-28T08:35:53Z">
+      <label>LDAP Entry ID Definition</label>
+    </setting>
+    <setting key="captcha.intruderAttemptTrigger" syntax="NUMERIC" syntaxVersion="0" modifyTime="2019-03-01T12:35:22Z">
+      <label>CAPTCHA Intruder Attempt Trigger</label>
+      <value>2</value>
+    </setting>
+    <setting key="captcha.recaptcha.publicKey" syntax="STRING" syntaxVersion="0" modifyTime="2019-03-07T09:08:20Z">
+      <label>reCAPTCHA Site Key</label>
+      <value />
+    </setting>
+    <setting key="captcha.recaptcha.privateKey" syntax="PASSWORD" syntaxVersion="0" modifyTime="2019-03-07T09:08:23Z">
+      <default />
+    </setting>
+    <setting key="challenge.enable" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-03-04T12:20:27Z">
+      <label>Enable Setup Responses</label>
+      <value>false</value>
+    </setting>
+    <setting key="challenge.forceSetup" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-03-04T12:20:26Z">
+      <label>Force Response Setup</label>
+      <value>false</value>
+    </setting>
+    <setting key="challenge.caseInsensitive" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-03-04T12:20:31Z">
+      <label>Case Insensitive Responses</label>
+      <value>false</value>
+    </setting>
+    <setting key="activateUser.enable" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-03-04T12:40:18Z">
+      <label>Enable User Activation</label>
+      <value>false</value>
+    </setting>
+    <setting key="activateUser.token.sendMethod" syntax="SELECT" syntaxVersion="0" modifyTime="2019-03-04T12:23:47Z">
+      <label>Token Send Method</label>
+      <value><![CDATA[EMAILONLY]]></value>
+    </setting>
+    <setting key="interface.theme" syntax="SELECT" syntaxVersion="0" modifyTime="2019-03-04T12:37:45Z">
+      <label>Interface Theme</label>
+      <value><![CDATA[sterile]]></value>
+    </setting>
+    <setting key="display.css.customStyle" syntax="TEXT_AREA" syntaxVersion="0" modifyTime="2019-03-04T12:36:12Z">
+      <label>Embedded CSS Stylesheet</label>
+      <value />
+    </setting>
+    <setting key="display.js.custom" syntax="TEXT_AREA" syntaxVersion="0" modifyTime="2019-03-04T12:36:13Z">
+      <label>Embedded JavaScript</label>
+      <value />
+    </setting>
+    <setting key="display.accountInformation" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-03-04T12:42:32Z">
+      <label>Enable Account Information</label>
+      <value>false</value>
+    </setting>
+    <setting key="display.passwordHistory" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-03-04T12:42:38Z">
+      <label>Show Password Event History</label>
+      <value>false</value>
+    </setting>
+    <setting key="email.smtp.address" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-03-05T10:12:21Z">
+      <label>SMTP Server Address</label>
+      <value><![CDATA[smtp.gmail.com]]></value>
+    </setting>
+    <setting key="email.smtp.port" syntax="NUMERIC" profile="default" syntaxVersion="0" modifyTime="2019-03-05T10:12:27Z">
+      <label>SMTP Server Port</label>
+      <value>587</value>
+    </setting>
+    <setting key="email.smtp.username" syntax="STRING" profile="default" syntaxVersion="0" modifyTime="2019-03-05T10:21:57Z">
+      <label>SMTP Server User Name</label>
+      <value><![CDATA[test.boc.pl@gmail.com]]></value>
+    </setting>
+    <setting key="email.smtp.userpassword" syntax="PASSWORD" profile="default" syntaxVersion="0" modifyTime="2019-03-05T10:22:21Z">
+      <label>SMTP Server Password</label>
+      <value>p7FD4n9ugTu0d2K3SPH3WA==</value>
+    </setting>
+    <setting key="email.default.fromAddress" syntax="STRING" syntaxVersion="0" modifyTime="2019-03-05T10:21:50Z">
+      <label>Default From Address</label>
+      <value><![CDATA[test.boc.pl@gmail.com]]></value>
+    </setting>
+    <setting key="email.profile.list" syntax="PROFILE" syntaxVersion="0" modifyTime="2019-03-04T14:02:11Z">
+      <label>Email Servers</label>
+      <value><![CDATA[default]]></value>
+    </setting>
+    <setting key="recovery.form" syntax="FORM" syntaxVersion="0" modifyTime="2019-03-07T09:18:47Z">
+      <label>Forgotten Password User Search Form</label>
+      <value>{"name":"cn","minimumLength":0,"maximumLength":255,"type":"text","source":"ldap","required":true,"confirmationRequired":false,"readonly":false,"unique":false,"multivalue":false,"labels":{"":"Username"},"regexErrors":{"":""},"description":{"":""},"regex":"","placeholder":"","javascript":"","selectOptions":{},"mimeTypes":["image/gif","image/png","image/jpeg","image/bmp","image/webp"],"maximumSize":65000}</value>
+    </setting>
+    <setting key="recovery.response.readPreference" syntax="SELECT" syntaxVersion="0" modifyTime="2019-03-05T07:48:52Z">
+      <label>Response Read Location</label>
+      <value><![CDATA[LDAP-LOCALDB]]></value>
+    </setting>
+    <setting key="recovery.response.writePreference" syntax="SELECT" syntaxVersion="0" modifyTime="2019-03-05T07:48:45Z">
+      <label>Response Write Location</label>
+      <value><![CDATA[LDAP-LOCALDB]]></value>
+    </setting>
+    <setting key="recovery.searchFilter" syntax="STRING" syntaxVersion="0" modifyTime="2019-03-05T07:48:19Z">
+      <label>Forgotten Password User Search Filter</label>
+      <value><![CDATA[(&(objectClass=person)(|(cn=%cn%)(uid=%cn%)))]]></value>
+    </setting>
+    <setting key="response.hashMethod" syntax="SELECT" syntaxVersion="0" modifyTime="2019-03-04T15:20:56Z">
+      <label>Responses Storage Hashing Method</label>
+      <value><![CDATA[TEXT]]></value>
+    </setting>
+    <setting key="recovery.verificationMethods" syntax="VERIFICATION_METHOD" profile="default" syntaxVersion="0" modifyTime="2019-03-05T08:09:11Z">
+      <label>Verification Methods</label>
+      <value><![CDATA[{"methodSettings":{"PREVIOUS_AUTH":{"enabledState":"disabled"},"ATTRIBUTES":{"enabledState":"disabled"},"CHALLENGE_RESPONSES":{"enabledState":"disabled"},"TOKEN":{"enabledState":"required"},"OTP":{"enabledState":"disabled"},"REMOTE_RESPONSES":{"enabledState":"disabled"},"OAUTH":{"enabledState":"disabled"}},"minOptionalRequired":0}]]></value>
+    </setting>
+    <setting key="challenge.requiredAttributes" syntax="FORM" profile="default" syntaxVersion="0" modifyTime="2019-03-05T08:09:22Z">
+      <label>Required LDAP Attributes</label>
+    </setting>
+    <setting key="email.smtp.advancedSettings" syntax="STRING_ARRAY" syntaxVersion="0" modifyTime="2019-03-05T10:17:54Z">
+      <label>SMTP Email Advanced Settings</label>
+      <value><![CDATA[mail.smtp.starttls.enable=true]]></value>
+    </setting>
+    <setting key="recovery.queryMatch" syntax="USER_PERMISSION" profile="default" syntaxVersion="2" modifyTime="2019-03-07T09:16:53Z">
+      <label>Forgotten Password Profile Match</label>
+      <value>{"ldapProfileID":"all","ldapQuery":"(objectClass=person)","type":"ldapQuery"}</value>
+    </setting>
+    <setting key="newUser.writeAttributes" syntax="ACTION" profile="default" syntaxVersion="2" modifyTime="2019-03-07T09:27:09Z">
+      <label>New User Actions</label>
+    </setting>
+    <setting key="newUser.profile.visible" syntax="BOOLEAN" profile="default" syntaxVersion="0" modifyTime="2019-03-07T09:27:53Z">
+      <label>Profile Visible on Menu</label>
+      <value>true</value>
+    </setting>
+    <setting key="basicAuth.enable" syntax="BOOLEAN" syntaxVersion="0" modifyTime="2019-03-07T09:35:18Z">
+      <label>Enable Basic Authentication</label>
+      <value>false</value>
+    </setting>
+  </settings>
+  <properties type="config" modifyTime="2019-03-07T09:36:07Z">
+    <property key="configPasswordHash" modifyTime="2019-02-27T11:18:58Z">$2y$10$YUplgtQM7ZHShcAJyn7Kn.U5yy71FZS1Lc1f1aBIA5UfCyo/hiUeG</property>
+    <property key="configIsEditable" modifyTime="2019-02-27T11:18:58Z">false</property>
+    <property key="configEpoch" modifyTime="2019-03-07T09:36:07Z">51</property>
+  </properties>
+</PwmConfiguration>

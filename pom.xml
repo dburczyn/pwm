@@ -36,8 +36,9 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.root.basedir>${project.basedir}</project.root.basedir>
 
-        <skipTests>false</skipTests>
+        <skipTests>true</skipTests>
         <skipSpotbugs>false</skipSpotbugs>
+         <checkstyle.skip>true</checkstyle.skip>
     </properties>
 
     <modules>

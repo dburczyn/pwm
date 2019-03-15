@@ -16,8 +16,9 @@
 
     <properties>
         <project.root.basedir>${project.basedir}/..</project.root.basedir>
-        <skipTests>false</skipTests>
+        <skipTests>true</skipTests>
         <skipExtendedTests>true</skipExtendedTests>
+        <checkstyle.skip>true</checkstyle.skip>
     </properties>
 
     <profiles>
