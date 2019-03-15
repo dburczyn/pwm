@@ -31,7 +31,7 @@
             Explicit location of application path working directory or the literal value "unspecified".  See the environment documentation at /public/reference/environment.jsp for more information.
         </description>
         <param-name>applicationPath</param-name>
-        <param-value>unspecified</param-value>
+        <param-value>C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\pwm\WEB-INF</param-value>
     </context-param>
     <!-- uncomment and set parameters for CAS integration
     <context-param>
@@ -44,7 +44,7 @@
         <param-value>${java.cas.client.config.location}</param-value>
     </context-param>
     End CAS Config -->
-    
+
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>

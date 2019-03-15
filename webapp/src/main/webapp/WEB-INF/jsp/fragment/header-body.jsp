@@ -31,25 +31,27 @@
     <%@ include file="header-menu.jsp" %>
 </pwm:if>
 <div id="header">
-    <div id="header-company-logo">
-    </div>
-    <div id="header-balance-div">
+       <div id="header-balance-div">
         <br/><%-- balance div for ie 6 --%>
     </div>
     <div id="header-right-logo">
     </div>
     <div id="header-center">
+
         <div id="header-center-left">
             <div id="header-page"><pwm:display key="${param['pwm.PageName']}" displayIfMissing="true"/></div>
             <div id="header-title">
-                <span class="title-long"><pwm:display key="Title_Application"/></span>
-                <span class="title-short"><pwm:display key="Title_Application_Abbrev"/></span>
+                <span class="title-long">OMiLAB Account Management</span>
+                <span class="title-short">OMiLAB Account Management</span>
             </div>
         </div>
 
         <div id="header-center-right">
+                <img alt="OMiLAB Logo" src="/pwm/public/resources/omilab.png" title="OMiLAB Logo" width="200" height="45">
             <div id="header-menu-wrapper">
+
                 <div id="header-menu">
+
                     <pwm:if test="<%=PwmIfTest.permission%>" permission="<%=Permission.PWMADMIN%>">
                         <div id="header-menu-alert" class="pwm-icon pwm-icon-warning display-none" title="<pwm:display key="Header_HealthWarningsPresent" bundle="Admin"/>"></div>
                     </pwm:if>
